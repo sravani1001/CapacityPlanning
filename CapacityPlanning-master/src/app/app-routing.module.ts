@@ -12,14 +12,14 @@ import { RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
     { path: '', redirectTo: '/login', pathMatch:"full" },
     { path: 'login', component: LoginComponent},
-    { path: 'sideMenu', component: SidebarMenuComponent, canActivate : [AuthGuard] },
+    { path: 'sideMenu', component: SidebarMenuComponent },
     { path: 'maincontent', component: MaincontentComponent,
         children: [
-            { path: 'first', component: FirstComponent, canActivate : [AuthGuard] },
-            { path: 'second', component: SecondComponent, canActivate : [AuthGuard] },
-            { path: 'third', component: ThirdComponent, canActivate : [AuthGuard] }
+            { path: 'first', component: FirstComponent },
+            { path: 'second', component: SecondComponent},
+            { path: 'third', component: ThirdComponent }
 
-        ], canActivate : [AuthGuard]
+        ]
     }
 ]
 

@@ -12,7 +12,7 @@ export class LoginComponent implements OnInit {
   username: string; password: string; response: any;
   header = { "alg": "HS256", "typ": "JWT" }; data = {
     "id": 1,
-    "username": "Koushik Kasetty",
+    "username": "Sravani Bashinapalli",
     "expiresIn": '2h'
   };
   secret = "My very confidential secret!!!";
