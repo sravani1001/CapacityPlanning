@@ -1,0 +1,405 @@
+{  
+   "menuItems":[  
+      {  
+         "displayName":"DevFestFL",
+         "iconName":"close",
+         "children":[  
+            {  
+               "displayName":"Speakers",
+               "iconName":"group",
+               "children":[  
+                  {  
+                     "displayName":"Michael Prentice",
+                     "iconName":"person",
+                     "route":"first",
+                     "children":[  
+                        {  
+                           "displayName":"Create Enterprise UIs",
+                           "iconName":"star_rate",
+                           "route":"first"
+                        }
+                     ]
+                  },
+                  {  
+                     "displayName":"Stephen Fluin",
+                     "iconName":"person",
+                     "route":"second",
+                     "children":[  
+                        {  
+                           "displayName":"What\"s up with the Web?",
+                           "iconName":"star_rate",
+                           "route":"second"
+                        }
+                     ]
+                  },
+                  {  
+                     "displayName":"Mike Brocchi",
+                     "iconName":"person",
+                     "route":"third",
+                     "children":[  
+                        {  
+                           "displayName":"My ally, the CLI",
+                           "iconName":"star_rate",
+                           "route":"third"
+                        },
+                        {  
+                           "displayName":"Become an Angular Tailor",
+                           "iconName":"star_rate",
+                           "route":"second"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {  
+               "displayName":"Sessions",
+               "iconName":"speaker_notes",
+               "children":[  
+                  {  
+                     "displayName":"Create Enterprise UIs",
+                     "iconName":"star_rate",
+                     "route":"third"
+                  },
+                  {  
+                     "displayName":"What\"s up with the Web?",
+                     "iconName":"star_rate",
+                     "route":"first"
+                  },
+                  {  
+                     "displayName":"My ally, the CLI",
+                     "iconName":"star_rate",
+                     "route":"second"
+                  },
+                  {  
+                     "displayName":"Become an Angular Tailor",
+                     "iconName":"star_rate",
+                     "route":"first"
+                  }
+               ]
+            },
+            {  
+               "displayName":"Feedback",
+               "iconName":"feedback",
+               "route":"second"
+            }
+         ]
+      },
+      {  
+         "displayName":"Disney",
+         "iconName":"close",
+         "children":[  
+            {  
+               "displayName":"Speakers",
+               "iconName":"group",
+               "children":[  
+                  {  
+                     "displayName":"Michael Prentice",
+                     "iconName":"person",
+                     "route":"third",
+                     "children":[  
+                        {  
+                           "displayName":"Create Enterprise UIs",
+                           "iconName":"star_rate",
+                           "route":"first"
+                        }
+                     ]
+                  },
+                  {  
+                     "displayName":"Stephen Fluin",
+                     "iconName":"person",
+                     "route":"second",
+                     "children":[  
+                        {  
+                           "displayName":"What\"s up with the Web?",
+                           "iconName":"star_rate",
+                           "route":"third"
+                        }
+                     ]
+                  },
+                  {  
+                     "displayName":"Mike Brocchi",
+                     "iconName":"person",
+                     "route":"first",
+                     "children":[  
+                        {  
+                           "displayName":"My ally, the CLI",
+                           "iconName":"star_rate",
+                           "route":"third"
+                        },
+                        {  
+                           "displayName":"Become an Angular Tailor",
+                           "iconName":"star_rate",
+                           "route":"first"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {  
+               "displayName":"Sessions",
+               "iconName":"speaker_notes",
+               "children":[  
+                  {  
+                     "displayName":"Create Enterprise UIs",
+                     "iconName":"star_rate",
+                     "route":"first"
+                  },
+                  {  
+                     "displayName":"What\"s up with the Web?",
+                     "iconName":"star_rate",
+                     "route":"second"
+                  },
+                  {  
+                     "displayName":"My ally, the CLI",
+                     "iconName":"star_rate",
+                     "route":"third"
+                  },
+                  {  
+                     "displayName":"Become an Angular Tailor",
+                     "iconName":"star_rate",
+                     "route":"third"
+                  }
+               ]
+            },
+            {  
+               "displayName":"Feedback",
+               "iconName":"feedback",
+               "route":"third"
+            }
+         ]
+      },
+      {  
+         "displayName":"Orlando",
+         "iconName":"close",
+         "children":[  
+            {  
+               "displayName":"Speakers",
+               "iconName":"group",
+               "children":[  
+                  {  
+                     "displayName":"Michael Prentice",
+                     "iconName":"person",
+                     "route":"first",
+                     "children":[  
+                        {  
+                           "displayName":"Create Enterprise UIs",
+                           "iconName":"star_rate",
+                           "route":"second"
+                        }
+                     ]
+                  },
+                  {  
+                     "displayName":"Stephen Fluin",
+                     "iconName":"person",
+                     "route":"third",
+                     "children":[  
+                        {  
+                           "displayName":"What\"s up with the Web?",
+                           "iconName":"star_rate",
+                           "route":"fourth"
+                        }
+                     ]
+                  },
+                  {  
+                     "displayName":"Mike Brocchi",
+                     "iconName":"person",
+                     "route":"second",
+                     "children":[  
+                        {  
+                           "displayName":"My ally, the CLI",
+                           "iconName":"star_rate",
+                           "route":"first"
+                        },
+                        {  
+                           "displayName":"Become an Angular Tailor",
+                           "iconName":"star_rate",
+                           "route":"second"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {  
+               "displayName":"Sessions",
+               "iconName":"speaker_notes",
+               "children":[  
+                  {  
+                     "displayName":"Create Enterprise UIs",
+                     "iconName":"star_rate",
+                     "route":"first"
+                  },
+                  {  
+                     "displayName":"What\"s up with the Web?",
+                     "iconName":"star_rate",
+                     "route":"wsecond"
+                  },
+                  {  
+                     "displayName":"My ally, the CLI",
+                     "iconName":"star_rate",
+                     "route":"third"
+                  },
+                  {  
+                     "displayName":"Become an Angular Tailor",
+                     "iconName":"star_rate",
+                     "route":"second"
+                  }
+               ]
+            },
+            {  
+               "displayName":"Feedback",
+               "iconName":"feedback",
+               "route":"first"
+            }
+         ]
+      },
+      {  
+         "displayName":"Maleficent",
+         "disabled":true,
+         "iconName":"close",
+         "children":[  
+            {  
+               "displayName":"Speakers",
+               "iconName":"group",
+               "children":[  
+                  {  
+                     "displayName":"Michael Prentice",
+                     "iconName":"person",
+                     "route":"second",
+                     "children":[  
+                        {  
+                           "displayName":"Create Enterprise UIs",
+                           "iconName":"star_rate",
+                           "route":"third"
+                        }
+                     ]
+                  },
+                  {  
+                     "displayName":"Stephen Fluin",
+                     "iconName":"person",
+                     "route":"second",
+                     "children":[  
+                        {  
+                           "displayName":"What\"s up with the Web?",
+                           "iconName":"star_rate",
+                           "route":"first"
+                        }
+                     ]
+                  },
+                  {  
+                     "displayName":"Mike Brocchi",
+                     "iconName":"person",
+                     "route":"second",
+                     "children":[  
+                        {  
+                           "displayName":"My ally, the CLI",
+                           "iconName":"star_rate",
+                           "route":"third"
+                        },
+                        {  
+                           "displayName":"Become an Angular Tailor",
+                           "iconName":"star_rate",
+                           "route":"second"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {  
+               "displayName":"Sessions",
+               "iconName":"speaker_notes",
+               "children":[  
+                  {  
+                     "displayName":"Create Enterprise UIs",
+                     "iconName":"star_rate",
+                     "route":"first"
+                  },
+                  {  
+                     "displayName":"What\"s up with the Web?",
+                     "iconName":"star_rate",
+                     "route":"second"
+                  },
+                  {  
+                     "displayName":"My ally, the CLI",
+                     "iconName":"star_rate",
+                     "route":"third"
+                  },
+                  {  
+                     "displayName":"Become an Angular Tailor",
+                     "iconName":"star_rate",
+                     "route":"second"
+                  }
+               ]
+            },
+            {  
+               "displayName":"Feedback",
+               "iconName":"feedback",
+               "route":"first"
+            }
+         ]
+      }
+   ],
+   "users":[  
+      {  
+         "id":"1",
+         "name":"Bedfordshire payment evolve",
+         "mailId":"Course Usability@gmail.com",
+         "password":"password"
+      },
+      {  
+         "id":"2",
+         "name":"transform panel Mobility",
+         "mailId":"Lead scalable Handmade@gmail.com",
+         "password":"password"
+      }
+   ],
+   "tableData":[  
+      {  
+         "Full Name":"Vincent Williamson",
+         "Age":"31",
+         "Job Title":"iOS Developer",
+         "Location":"Washington"
+      },
+      {  
+         "Full Name":"Joseph Smith",
+         "Age":"27",
+         "Job Title":"Project Manager",
+         "Location":"Somerville, MA"
+      },
+      {  
+         "Full Name":"Justin Black",
+         "Age":"26",
+         "Job Title":"Front-End Developer",
+         "Location":"Los Angeles"
+      },
+      {  
+         "Full Name":"Sean Guzman",
+         "Age":"25",
+         "Job Title":"Web Designer",
+         "Location":"San Francisco"
+      },
+      {  
+         "Full Name":"Keith Carter",
+         "Age":"20",
+         "Job Title":"Graphic Designer",
+         "Location":"New York, NY"
+      },
+      {  
+         "Full Name":"Austin Medina",
+         "Age":"32",
+         "Job Title":"Photographer",
+         "Location":"New York"
+      },
+      {  
+         "Full Name":"Vincent Williamson",
+         "Age":"31",
+         "Job Title":"iOS Developer",
+         "Location":"Washington"
+      },
+      {  
+         "Full Name":"Joseph Smith",
+         "Age":"27",
+         "Job Title":"Project Manager",
+         "Location":"Somerville, MA"
+      }
+   ]
+}

@@ -1,0 +1,34 @@
+
+<button type="button" class="btn btn-primary" (click)="exportAsCSV()">Export</button>
+
+<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+					<div class="table">
+
+						<div class="row header">
+							<div class="cell"> Full Name </div>
+							<div class="cell"> Age </div>
+							<div class="cell"> Job Title </div>
+              <div class="cell"> Location </div>
+              
+						</div>
+						<div class="row" *ngFor = "let row of data">
+							<div class="cell" data-title="Full Name">
+                  {{row['Full Name']}}
+							</div>
+							<div class="cell" data-title="Age">
+                  {{row.Age}}
+							</div>
+							<div class="cell" data-title="Job Title">
+                  {{row['Job Title']}}
+							</div>
+							<div class="cell" data-title="Location">
+                  {{row.Location}}
+							</div>
+						</div>
+
+					</div>
+			</div>
+		</div>
+	</div>

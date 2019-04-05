@@ -1,0 +1,32 @@
+<table>
+  <ng-container *ngFor="let navItem of navItems" >
+    <tr>
+      <td> 
+        <button mat-icon-button color="primary" [matMenuTriggerFor]="primaryMenu">
+            <b>{{navItem.displayName}}</b>
+        </button>
+        <mat-menu #primaryMenu="matMenu">
+          <span *ngIf="navItem.children && navItem.children.length > 0">
+            <span *ngFor="let child1 of navItem.children">
+              <button mat-menu-item [matMenuTriggerFor]="secondaryMenu" > {{child1.displayName}} </button>
+              <mat-menu #secondaryMenu="matMenu">
+                <span *ngIf="child1.children && child1.children.length > 0">
+                  <span *ngFor="let child2 of child1.children">
+                    <button mat-menu-item [matMenuTriggerFor]="thirdMenu"> {{child2.displayName}} </button>
+                    <mat-menu #thirdMenu="matMenu">
+                      <span *ngIf="child2.children && child2.children.length > 0">
+                        <span *ngFor="let child3 of child2.children">
+                          <button mat-menu-item routerLink="{{child3.route}}"> {{child3.displayName}} </button>
+                        </span>
+                      </span>
+                    </mat-menu>
+                  </span>
+                </span>
+              </mat-menu>
+            </span>
+          </span>
+        </mat-menu>
+      </td>
+    </tr>
+  </ng-container>
+</table>
